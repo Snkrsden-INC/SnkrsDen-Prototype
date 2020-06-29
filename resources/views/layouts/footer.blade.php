@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark">
 
-    <div style="background-color: #6351ce;">
+    <div style="background-color: darkorange;">
         <div class="container">
 
             <!-- Grid row-->
@@ -135,7 +135,7 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        <a href="https://snkrsden.com/">SnkrsDen.com</a>
     </div>
     <!-- Copyright -->
 
