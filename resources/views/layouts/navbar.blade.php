@@ -2,9 +2,9 @@
 <nav class="navbar navbar-expand-lg navbar-dark special-color-dark">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand text-uppercase" href="#">
+    <a class="navbar-brand text-uppercase" href="/">
         <img src="https://top770.snkrsden.com/images/snkrs-logo-blacks.png" alt="Sneaker Den Logo"
-        width="100px" class="pr-3">
+             width="100px" class="pr-3">
     </a>
 
     <!-- Collapse button -->
@@ -73,7 +73,8 @@
                                 </li>
                                 <li>
                                     <a class="menu-item pl-0" href="#!">
-                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Laboris nisi ut aliquip ex ea commodo consequat
+                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Laboris nisi ut aliquip ex ea
+                                        commodo consequat
                                     </a>
                                 </li>
                                 <li>
@@ -83,7 +84,8 @@
                                 </li>
                                 <li>
                                     <a class="menu-item pl-0" href="#!">
-                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Esse cillum dolore eu fugiat nulla pariatur
+                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Esse cillum dolore eu fugiat nulla
+                                        pariatur
                                     </a>
                                 </li>
                             </ul>
@@ -103,7 +105,8 @@
                                 </li>
                                 <li>
                                     <a class="menu-item pl-0" href="#!">
-                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Sed ut perspiciatis unde omnis iste natus error
+                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Sed ut perspiciatis unde omnis iste
+                                        natus error
                                     </a>
                                 </li>
                                 <li>
@@ -133,7 +136,8 @@
                                 </li>
                                 <li>
                                     <a class="menu-item pl-0" href="#!">
-                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Quae ab illo inventore veritatis et quasi
+                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Quae ab illo inventore veritatis et
+                                        quasi
                                         architecto
                                     </a>
                                 </li>
@@ -188,7 +192,8 @@
                                 </li>
                                 <li>
                                     <a class="menu-item pl-0" href="#!">
-                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Laboris nisi ut aliquip ex ea commodo consequat
+                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Laboris nisi ut aliquip ex ea
+                                        commodo consequat
                                     </a>
                                 </li>
                                 <li>
@@ -198,7 +203,8 @@
                                 </li>
                                 <li>
                                     <a class="menu-item pl-0" href="#!">
-                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Esse cillum dolore eu fugiat nulla pariatur
+                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Esse cillum dolore eu fugiat nulla
+                                        pariatur
                                     </a>
                                 </li>
                             </ul>
@@ -218,7 +224,8 @@
                                 </li>
                                 <li>
                                     <a class="menu-item pl-0" href="#!">
-                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Sed ut perspiciatis unde omnis iste natus error
+                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Sed ut perspiciatis unde omnis iste
+                                        natus error
                                     </a>
                                 </li>
                                 <li>
@@ -316,7 +323,8 @@
                                 </li>
                                 <li>
                                     <a class="menu-item pl-0" href="#!">
-                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Quae ab illo inventore veritatis et quasi
+                                        <i class="fas fa-caret-right pl-1 pr-3"></i>Quae ab illo inventore veritatis et
+                                        quasi
                                         architecto
                                     </a>
                                 </li>
@@ -339,10 +347,21 @@
         </ul>
         <!-- Links -->
 
-        <!-- Search form -->
+        <!-- Links Right -->
+
+        <ul class="mr-5 ml-5 navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/login">LOGIN</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/register">REGISTER</a>
+            </li>
+        </ul>
+
+        <!-- Search Form -->
         <form class="form-inline">
             <div class="md-form my-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search Sneakers" aria-label="Search">
             </div>
         </form>
 
