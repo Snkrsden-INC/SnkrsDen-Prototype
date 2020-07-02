@@ -1,6 +1,9 @@
 @extends('layouts.main')
+<!-- TODO: Add mockup pictures to welcome view-->
+<!-- TODO: Create routes for blog -->
+<!-- TODO: Create marketplace routes and model -->
+<!-- TODO: Create listing model -->
 @section('content')
-<body class="skin-light">
 <!-- Jumbotron -->
 <div class="card card-image" style="background-image: url(https://hephaestus-solutions.com/snkrsden/img/DSC02593.jpg);">
     <div class="text-white text-center rgba-stylish-strong py-5 px-4">
