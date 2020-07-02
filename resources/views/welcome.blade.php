@@ -1,20 +1,19 @@
 @extends('layouts.main')
 @section('content')
 <body class="skin-light">
-<div class="jumbotron card card-image" style="background-image: url(https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);">
-    <div class="text-white text-center py-5 px-4">
-        <div>
-            <h2 class="card-title h1-responsive pt-3 mb-5 font-bold">
-                <strong>SnkrsDen </strong>
-            </h2>
-            <h3 class="mx-5 mb-5">
-                Sale, Buy & Trade Your Favorite Kicks!
-            </h3>
-            <a class="btn btn-outline-white btn-md"><i class="fas fa-clone left"></i>View Store</a>
-            <a class="btn btn-outline-white btn-md"><i class="fas fa-clone left"></i>Check Out Our Blog</a>
+<!-- Jumbotron -->
+<div class="card card-image" style="background-image: url(https://hephaestus-solutions.com/snkrsden/img/DSC02593.jpg);">
+    <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+        <div class="py-5">
+            <!-- Content -->
+            <h5 class="h5 orange-text"><i class="fas fa-camera-retro pr-2"></i>SnkrsDen </h5>
+            <h2 class="card-title h2 my-4 py-2">Buy & Sale Your Favorite Kicks.</h2>
+            <a class="btn peach-gradient"><i class="fas fa-cart-plus pr-2"></i>Shop</a>
+            <a class="btn peach-gradient"><i class="fas fa-shopping-basket pr-2"></i>View Marketplace</a>
         </div>
     </div>
 </div>
+<!-- Jumbotron -->
 <main>
     <div class="container">
 
