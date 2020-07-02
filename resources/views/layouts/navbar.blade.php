@@ -367,7 +367,7 @@
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ route('home') }}">
+                        <a class="dropdown-item" href="/posts">
                             {{ __('BLOG') }}
                         </a>
                         <a class="dropdown-item" href="{{ route('home') }}">
@@ -392,7 +392,6 @@
                 <input class="form-control mr-sm-2" type="text" placeholder="Search Sneakers" aria-label="Search">
             </div>
         </form>
-
     </div>
     <!-- Collapsible content -->
 

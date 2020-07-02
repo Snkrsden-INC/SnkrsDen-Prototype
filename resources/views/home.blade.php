@@ -15,6 +15,7 @@
                         </div>
                             <div class="list-group">
                                 <a href="#!" class="list-group-item list-group-item-action">My Products</a>
+                                <a href="" class="list-group-item list-group-item-action">List A Product</a>
                                 <a href="#!" class="list-group-item list-group-item-action">Profile</a>
                                 <a href="#!" class="list-group-item list-group-item-action">Following</a>
                             </div>
@@ -33,7 +34,7 @@
 
                     <!-- Title -->
                     <h2 class="card-header-title mb-3">
-                        Welcome, {{ \Illuminate\Support\Facades\Auth::user()->name }}
+                        Welcome, {{ Auth::user()->name }}
                     </h2>
                     <!-- Text -->
                     <p class="mb-0">
@@ -44,7 +45,10 @@
                 </div>
                 <!-- Card content -->
                 <div class="card-body card-body-cascade text-center">
-
+                    <div class="row d-flex justify-content-around">
+                        <a href="" class="btn btn-warning">Create Post</a>
+                        <a href="" class="btn btn-outline-warning">Create Product Listing</a>
+                    </div>
                 </div>
                 <!-- Card content -->
 
