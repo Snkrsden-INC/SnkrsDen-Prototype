@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design for Bootstrap</title>
+    <title>{{ config('app.name') }}</title>
     <!-- MDB icon -->
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
     <!-- Font Awesome -->
@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <!-- Material Design Bootstrap -->
     <link rel="stylesheet" href="{{ asset('css/mdb.min.css') }}">
+    <!-- Material Design Ecommerce CSS -->
+{{--    <link rel="stylesheet" href="{{ asset('css/mdb.ecommerce.min.css') }}">--}}
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
@@ -24,7 +26,9 @@
 @include('layouts.navbar')
 
 <div class="container">
-    @yield('content')
+    <div class="pt-5 pb-5">
+        @yield('content')
+    </div>
 </div>
 @include('layouts.footer')
 <!-- End your project here-->
